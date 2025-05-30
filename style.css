@@ -1,0 +1,128 @@
+/* Existing styles */
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #8fb9bc;
+}
+
+.child-div {
+  background-color: #f4fafa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.child-div figure {
+  margin-bottom: 20px;
+}
+
+.child-div figure img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.child-div figure figcaption {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.additems {
+  display: flex;
+  align-items: center;
+}
+
+.additems input[type="text"] {
+  flex: 1;
+  padding: 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 25px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  color: #333;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.additems input[type="text"]::placeholder {
+  color: #aaa;
+}
+
+.add-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #fff;
+  background-color: #9e63e7;
+  border: none;
+  border-radius: 50%;
+  border-color: #007bff;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #0056b3;
+}
+
+/* New styles */
+.eachItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #0d4961;
+}
+
+.eachItem h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.todo-btn {
+  display: flex;
+}
+
+.todo-btn i {
+  font-size: 18px; /* Changed font size */
+  color: #fff;
+  margin-left: 5px; /* Adjusted margin */
+  cursor: pointer;
+  background-color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.todo-btn i:hover {
+  color: #a8caee;
+}
+
+.Showitems {
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ef66b8e6;
+  color: #f7f4f6;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+.checklist-btn:hover {
+  background-color: #3dd3ed; /* Green */
+  color: white;
+}
+
